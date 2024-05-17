@@ -1,35 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi pagina</title>
-    <!--
-        importar recursos propios o recursos externos como bibliotecas 
-    -->
-    <link rel="stylesheet" href="estilos/estilos.css">
+        <body>
+            <div align="center" style="border: 2px solid red;">
 
-</head>
-
-<body>
-
-
-    <div class="login-container">;
-        <h2>Iniciar Sesión</h2>
-        <form action="/login" method="POST">
-            <div class="form-group">
-                <label for="username">Usuario:</label>
-                <input type="text" id="username" name="username" required>
+                <h1 style="color: blue;">Formulario de registro</h1>
             </div>
-            <div class="form-group">
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" required>
+                <br><br>           
+            <div align="center">
+                <form action="/user" method="post">
+                    <label for style="color: mediumblue;">Nombre</label>
+                    <input type="text" name="Nombre" id="Nombre">
+                    <br><br>
+
+                    <label for style="color: navy;">Password</label>
+                    <input type="password" name="Contraseña" id="Password">
+                    <br><br>
+
+                    <input type="submit">
+                </form>                
             </div>
-            <button type="submit">Entrar</button>
-        </form>
-    </div>
 
-</body>
-
+        </body>
+    </head>
 </html>
