@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container label {
+    display: block;
+    margin-top: 10px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.container button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container button:hover {
+    background-color: #0056b3;
+}
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .enlace-boton {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 18px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+
+}
+.enlace-boton:hover {
+    background-color: #0056b3;
+}
+  
