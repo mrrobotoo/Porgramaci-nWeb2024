@@ -67,7 +67,8 @@
                                 class="form-control" name="contrasenia" id="contrasenia" aria-describedby="helpId" placeholder="Contraseña">
                             <small id="helpId" class="form-text text-muted">Escriba su contraseña</small>
                         </div>
-                        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                        <button type="submit" class="btn btn-primary">Iniciar sesion</button>
+                        <a href="register.html" class="enlace-boton">Registrar</a>
                     </div>
                     
                 </div> 
