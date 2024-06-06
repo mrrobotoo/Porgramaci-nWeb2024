@@ -9,8 +9,7 @@
         <p class="lead">
        
           <a class="btn btn-primary btn-1g" href="vista_alumnos.php" role="button">Iniciar</a>
-          <a class="btn btn-primary btn-1g" href="heroes.php" role="button">Super Heroe</a>
-
+          <a class="btn btn-primary btn-1g" href="super.php" role="button">Ver super</a>
         </p>
       </div>
    </div>

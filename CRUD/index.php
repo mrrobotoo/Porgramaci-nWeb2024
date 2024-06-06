@@ -6,8 +6,6 @@
     if($_POST['usuario'] == 'admin' && $_POST['contrasenia'] == '123'){
         $_SESSION['usuario']=$_POST['usuario'];
         header('Location:secciones/index.php');
-    }else{
-
     }
   }
 ?>
@@ -67,10 +65,10 @@
                                 class="form-control" name="contrasenia" id="contrasenia" aria-describedby="helpId" placeholder="Contraseña">
                             <small id="helpId" class="form-text text-muted">Escriba su contraseña</small>
                         </div>
-                        <button type="submit" class="btn btn-primary">Iniciar sesion</button>
-                        <a href="register.html" class="enlace-boton">Registrar</a>
+                        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                        <a class="btn btn-primary btn-1g" href="registro.php" role="button">Registrar Usuario</a>
                     </div>
-                    
+                   
                 </div> 
             </form> 
         </div>     
